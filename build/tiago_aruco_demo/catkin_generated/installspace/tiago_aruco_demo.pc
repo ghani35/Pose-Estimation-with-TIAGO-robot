@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: tiago_aruco_demo
+Description: Description of tiago_aruco_demo
+Version: 2.0.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

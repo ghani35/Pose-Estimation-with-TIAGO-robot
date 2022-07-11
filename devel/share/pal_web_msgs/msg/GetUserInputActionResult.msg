@@ -1,0 +1,1 @@
+/home/ghani/tiago_public_ws/devel/.private/pal_web_msgs/share/pal_web_msgs/msg/GetUserInputActionResult.msg

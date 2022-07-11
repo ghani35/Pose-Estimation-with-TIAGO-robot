@@ -1,0 +1,7 @@
+[01m[K/home/ghani/tiago_public_ws/src/ros_control/controller_manager/src/controller_manager.cpp:[m[K In member function ‘[01m[Kbool controller_manager::ControllerManager::loadController(const string&)[m[K’:
+[01m[K/home/ghani/tiago_public_ws/src/ros_control/controller_manager/src/controller_manager.cpp:245:3:[m[K [01;35m[Kwarning: [m[Kexception of type ‘[01m[Kstd::runtime_error[m[K’ will be caught
+   [01;35m[Kcatch[m[K(std::runtime_error &e){
+   [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/ros_control/controller_manager/src/controller_manager.cpp:241:3:[m[K [01;35m[Kwarning: [m[K   by earlier handler for ‘[01m[Kstd::exception[m[K’
+   [01;35m[Kcatch[m[K(std::exception &e){
+   [01;35m[K^~~~~[m[K

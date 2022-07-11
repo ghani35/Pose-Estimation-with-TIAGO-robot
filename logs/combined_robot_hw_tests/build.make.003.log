@@ -1,0 +1,22 @@
+[  0%] Built target controller_manager_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target controller_manager_msgs_generate_messages_eus
+[  0%] Built target controller_manager_msgs_generate_messages_cpp
+[  0%] Built target controller_manager_msgs_generate_messages_lisp
+[  0%] Built target controller_manager_msgs_generate_messages_nodejs
+[ 71%] Built target combined_robot_hw_tests
+[100%] Built target combined_robot_hw_dummy_app

@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: tiago_trajectory_controller
+Description: Description of tiago_trajectory_controller
+Version: 2.0.3
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

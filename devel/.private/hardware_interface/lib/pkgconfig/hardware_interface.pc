@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/hardware_interface
+
+Name: hardware_interface
+Description: Description of hardware_interface
+Version: 0.5.1
+Cflags: -I/home/ghani/tiago_public_ws/src/ros_control/hardware_interface/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

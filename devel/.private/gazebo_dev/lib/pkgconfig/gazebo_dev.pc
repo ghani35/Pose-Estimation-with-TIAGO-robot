@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/gazebo_dev
+
+Name: gazebo_dev
+Description: Description of gazebo_dev
+Version: 3.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

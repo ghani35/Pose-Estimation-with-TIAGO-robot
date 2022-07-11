@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: pmb2_2dnav
+Description: Description of pmb2_2dnav
+Version: 2.0.12
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

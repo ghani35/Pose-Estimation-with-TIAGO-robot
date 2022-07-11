@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: mode_state_controller
+Description: Description of mode_state_controller
+Version: 0.4.6
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmode_state_controller
+Requires: realtime_tools hardware_interface pluginlib controller_interface sensor_msgs pal_hardware_interfaces

@@ -1,0 +1,80 @@
+Not searching for unused variables given on the command line.
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[36m--[0m The C compiler identification is GNU 7.5.0
+[36m--[0m The CXX compiler identification is GNU 7.5.0
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Check for working C compiler: /usr/bin/cc - skipped
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ - skipped
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/ghani/tiago_public_ws/devel/.private/dynamic_introspection
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/ghani/tiago_public_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/ghani/tiago_public_ws/devel;/opt/ros/melodic
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: 0
+[36m--[0m catkin 0.7.29
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[33mCMake Warning (dev) at /home/ghani/.local/lib/python2.7/site-packages/cmake/data/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libdw) does
+  not match the name of the calling package (backward_ros).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+[36mCall Stack (most recent call first):[0m
+  /home/ghani/tiago_public_ws/src/backward_ros/cmake/BackwardConfig.cmake:55 (find_package_handle_standard_args)
+  /home/ghani/tiago_public_ws/devel/share/backward_ros/cmake/backward_rosConfig.cmake:222 (include)
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:16 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[36m--[0m Could NOT find libdw (missing: LIBDW_LIBRARY LIBDW_INCLUDE_DIR)
+[33mCMake Warning (dev) at /home/ghani/.local/lib/python2.7/site-packages/cmake/data/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (libbfd)
+  does not match the name of the calling package (backward_ros).  This can
+  lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+[36mCall Stack (most recent call first):[0m
+  /home/ghani/tiago_public_ws/src/backward_ros/cmake/BackwardConfig.cmake:66 (find_package_handle_standard_args)
+  /home/ghani/tiago_public_ws/devel/share/backward_ros/cmake/backward_rosConfig.cmake:222 (include)
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:16 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[36m--[0m Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR)
+[36m--[0m BACKWARD_HAS_UNWIND=1
+[36m--[0m BACKWARD_HAS_BACKTRACE=0
+[36m--[0m BACKWARD_HAS_BACKTRACE_SYMBOL=1
+[36m--[0m BACKWARD_HAS_DW=0
+[36m--[0m BACKWARD_HAS_BFD=0
+[33mCMake Warning (dev) at /home/ghani/.local/lib/python2.7/site-packages/cmake/data/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Backward)
+  does not match the name of the calling package (backward_ros).  This can
+  lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+[36mCall Stack (most recent call first):[0m
+  /home/ghani/tiago_public_ws/src/backward_ros/cmake/BackwardConfig.cmake:128 (find_package_handle_standard_args)
+  /home/ghani/tiago_public_ws/devel/share/backward_ros/cmake/backward_rosConfig.cmake:222 (include)
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:16 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[36m--[0m Could NOT find Backward (missing: BACKWARD_LIBRARIES)
+[36m--[0m dynamic_introspection: 5 messages, 0 services
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/ghani/tiago_public_ws/build/dynamic_introspection

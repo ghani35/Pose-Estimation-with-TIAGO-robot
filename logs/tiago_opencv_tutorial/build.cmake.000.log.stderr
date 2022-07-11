@@ -1,0 +1,25 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:14 (find_package):
+  Found package configuration file:
+
+    /usr/share/OpenCV/OpenCVConfig.cmake
+
+  but it set OpenCV_FOUND to FALSE so package "OpenCV" is considered to be
+  NOT FOUND.
+
+[0m
+[33mCMake Warning at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'system_lib' but neither
+  'system_lib_INCLUDE_DIRS' nor 'system_lib_LIBRARIES' is defined.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:33 (catkin_package)
+
+[0m

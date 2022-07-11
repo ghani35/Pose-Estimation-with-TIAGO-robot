@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: tiago_controller_configuration
+Description: Description of tiago_controller_configuration
+Version: 2.3.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

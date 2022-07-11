@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: pmb2_2dnav_gazebo
+Description: Description of pmb2_2dnav_gazebo
+Version: 1.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

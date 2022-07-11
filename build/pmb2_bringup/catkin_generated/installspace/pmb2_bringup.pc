@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: pmb2_bringup
+Description: Description of pmb2_bringup
+Version: 3.0.21
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

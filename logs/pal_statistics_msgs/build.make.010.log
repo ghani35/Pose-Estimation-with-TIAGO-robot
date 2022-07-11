@@ -1,0 +1,15 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _pal_statistics_msgs_generate_messages_check_deps_StatisticsValues
+[  0%] Built target _pal_statistics_msgs_generate_messages_check_deps_StatisticsNames
+[  0%] Built target _pal_statistics_msgs_generate_messages_check_deps_Statistics
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _pal_statistics_msgs_generate_messages_check_deps_Statistic
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 22%] Built target pal_statistics_msgs_generate_messages_py
+[ 22%] Built target std_msgs_generate_messages_nodejs
+[ 40%] Built target pal_statistics_msgs_generate_messages_lisp
+[ 72%] Built target pal_statistics_msgs_generate_messages_eus
+[ 81%] Built target pal_statistics_msgs_generate_messages_cpp
+[100%] Built target pal_statistics_msgs_generate_messages_nodejs
+[100%] Built target pal_statistics_msgs_generate_messages

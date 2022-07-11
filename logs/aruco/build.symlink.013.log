@@ -1,0 +1,5 @@
+Linked: (/home/ghani/tiago_public_ws/devel/.private/aruco/lib/libaruco.so, /home/ghani/tiago_public_ws/devel/lib/libaruco.so)
+Linked: (/home/ghani/tiago_public_ws/devel/.private/aruco/lib/aruco/optimalmarkers, /home/ghani/tiago_public_ws/devel/lib/aruco/optimalmarkers)
+Linked: (/home/ghani/tiago_public_ws/devel/.private/aruco/lib/pkgconfig/aruco.pc, /home/ghani/tiago_public_ws/devel/lib/pkgconfig/aruco.pc)
+Linked: (/home/ghani/tiago_public_ws/devel/.private/aruco/share/aruco/cmake/arucoConfig.cmake, /home/ghani/tiago_public_ws/devel/share/aruco/cmake/arucoConfig.cmake)
+Linked: (/home/ghani/tiago_public_ws/devel/.private/aruco/share/aruco/cmake/arucoConfig-version.cmake, /home/ghani/tiago_public_ws/devel/share/aruco/cmake/arucoConfig-version.cmake)

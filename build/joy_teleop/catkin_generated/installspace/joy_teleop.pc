@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: joy_teleop
+Description: Description of joy_teleop
+Version: 0.3.3
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib teleop_tools_msgs

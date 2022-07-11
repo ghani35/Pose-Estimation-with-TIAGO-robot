@@ -1,0 +1,4 @@
+[ 25%] Built target gazebo_zero_wheel_vel
+[ 50%] Built target gazebo_diff_drive
+[100%] Built target gazebo_four_wheel_diff_drive_plugin
+[100%] Built target gazebo_diff_drive_plugin

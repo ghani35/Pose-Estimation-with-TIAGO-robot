@@ -1,0 +1,14 @@
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _tiago_trajectory_controller_generate_messages_check_deps_Control_msg
+[35m[1mConsolidate compiler generated dependencies of target run_traj_control[0m
+[ 33%] Built target tiago_trajectory_controller_generate_messages_cpp
+[ 33%] Built target tiago_trajectory_controller_generate_messages_py
+[ 55%] Built target tiago_trajectory_controller_generate_messages_eus
+[ 66%] Built target tiago_trajectory_controller_generate_messages_lisp
+[ 77%] Built target tiago_trajectory_controller_generate_messages_nodejs
+[ 77%] Built target tiago_trajectory_controller_generate_messages
+[100%] Built target run_traj_control

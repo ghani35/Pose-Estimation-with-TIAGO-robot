@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: pmb2_description
+Description: Description of pmb2_description
+Version: 3.0.21
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

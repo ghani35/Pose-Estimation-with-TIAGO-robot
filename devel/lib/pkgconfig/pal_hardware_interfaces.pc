@@ -1,0 +1,1 @@
+/home/ghani/tiago_public_ws/devel/.private/pal_hardware_interfaces/lib/pkgconfig/pal_hardware_interfaces.pc

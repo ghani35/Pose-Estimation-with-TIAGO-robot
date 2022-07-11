@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: pal_gripper_controller_configuration_gazebo
+Description: Description of pal_gripper_controller_configuration_gazebo
+Version: 1.0.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

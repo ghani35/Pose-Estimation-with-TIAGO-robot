@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: rviz_plugin_covariance
+Description: Description of rviz_plugin_covariance
+Version: 0.0.6
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

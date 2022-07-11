@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/say_something
+
+Name: say_something
+Description: Description of say_something
+Version: 2.0.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

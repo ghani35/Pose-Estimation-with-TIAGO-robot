@@ -1,0 +1,1 @@
+/home/ghani/tiago_public_ws/devel/.private/pmb2_maps/lib/pkgconfig/pmb2_maps.pc

@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: pal_robotiq_gripper_wrapper
+Description: Description of pal_robotiq_gripper_wrapper
+Version: 0.0.11
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

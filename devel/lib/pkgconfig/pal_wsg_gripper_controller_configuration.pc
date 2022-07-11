@@ -1,0 +1,1 @@
+/home/ghani/tiago_public_ws/devel/.private/pal_wsg_gripper_controller_configuration/lib/pkgconfig/pal_wsg_gripper_controller_configuration.pc

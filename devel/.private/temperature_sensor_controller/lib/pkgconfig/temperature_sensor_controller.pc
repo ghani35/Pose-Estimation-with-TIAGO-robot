@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/temperature_sensor_controller
+
+Name: temperature_sensor_controller
+Description: Description of temperature_sensor_controller
+Version: 0.4.6
+Cflags: -I/home/ghani/tiago_public_ws/devel/.private/temperature_sensor_controller/include -I/home/ghani/tiago_public_ws/src/ros_controllers/temperature_sensor_controller/include
+Libs: -L${prefix}/lib -ltemperature_sensor_controller
+Requires: realtime_tools hardware_interface pluginlib controller_interface sensor_msgs pal_hardware_interfaces

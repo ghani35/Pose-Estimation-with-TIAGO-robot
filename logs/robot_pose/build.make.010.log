@@ -1,0 +1,3 @@
+[ 33%] Built target distance_publisher_node
+[ 66%] Built target robot_pose_node
+[100%] Built target fake_odom_publisher

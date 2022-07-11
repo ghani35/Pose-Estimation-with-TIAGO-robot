@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/velocity_controllers
+
+Name: velocity_controllers
+Description: Description of velocity_controllers
+Version: 0.4.6
+Cflags: -I/home/ghani/tiago_public_ws/src/ros_controllers/velocity_controllers/include
+Libs: -L${prefix}/lib -lvelocity_controllers
+Requires: angles control_msgs control_toolbox controller_interface forward_command_controller realtime_tools urdf

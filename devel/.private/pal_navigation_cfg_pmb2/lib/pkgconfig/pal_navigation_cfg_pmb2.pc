@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/pal_navigation_cfg_pmb2
+
+Name: pal_navigation_cfg_pmb2
+Description: Description of pal_navigation_cfg_pmb2
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: robot_pose
+Description: Description of robot_pose
+Version: 1.0.9
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

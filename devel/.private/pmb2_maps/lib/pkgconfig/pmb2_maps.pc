@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/pmb2_maps
+
+Name: pmb2_maps
+Description: Description of pmb2_maps
+Version: 2.0.12
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

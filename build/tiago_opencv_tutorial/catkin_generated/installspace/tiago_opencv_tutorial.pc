@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: tiago_opencv_tutorial
+Description: Description of tiago_opencv_tutorial
+Version: 2.0.3
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltiago_opencv_tutorial
+Requires: roscpp rospy image_transport cv_bridge pal_detection_msgs geometry_msgs message_generation

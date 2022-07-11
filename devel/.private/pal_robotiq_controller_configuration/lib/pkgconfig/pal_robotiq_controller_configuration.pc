@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/pal_robotiq_controller_configuration
+
+Name: pal_robotiq_controller_configuration
+Description: Description of pal_robotiq_controller_configuration
+Version: 0.0.11
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

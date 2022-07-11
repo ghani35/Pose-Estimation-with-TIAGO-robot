@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/actuator_state_controller
+
+Name: actuator_state_controller
+Description: Description of actuator_state_controller
+Version: 0.4.6
+Cflags: -I/home/ghani/tiago_public_ws/src/ros_controllers/actuator_state_controller/include
+Libs: -L${prefix}/lib 
+Requires: 

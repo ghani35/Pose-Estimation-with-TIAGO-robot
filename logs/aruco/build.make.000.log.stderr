@@ -1,0 +1,883 @@
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:28:0[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:58:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     CameraParameters(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:64:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setParams(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:28:0[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:79:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string path)[01;35m[Kthrow[m[K(cv::Exception);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:82:49:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string path,bool inXML=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:86:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromXMLFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:90:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void resize(cv::Size size)[01;35m[Kthrow[m[K(cv::Exception);
+                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:107:137:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:119:139:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:125:132:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void argConvGLcpara2( double cparam[3][4], int width, int height, double gnear, double gfar, double m[16], bool invert )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:126:96:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static int  arParamDecompMat( double source[3][4], double cpara[3][4], double trans[3][4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:47:96:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ CameraParameters::CameraParameters(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception) {
+                                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:68:94:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void CameraParameters::setParams(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception)
+                                                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:110:49:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void CameraParameters::readFromFile(string path)[01;35m[Kthrow[m[K(cv::Exception)
+                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:140:58:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void CameraParameters::saveToFile(string path,bool inXML)[01;35m[Kthrow[m[K(cv::Exception)
+                                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:169:45:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void CameraParameters::resize(cv::Size size)[01;35m[Kthrow[m[K(cv::Exception)
+                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:189:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void CameraParameters::readFromXMLFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception)
+                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:220:145:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void CameraParameters::glGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert   )[01;35m[Kthrow[m[K(cv::Exception)
+                                                                                                                                                 [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:33[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:30[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:58:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     CameraParameters(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:64:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setParams(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:33[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:30[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:79:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string path)[01;35m[Kthrow[m[K(cv::Exception);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:82:49:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string path,bool inXML=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:86:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromXMLFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:90:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void resize(cv::Size size)[01;35m[Kthrow[m[K(cv::Exception);
+                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:107:137:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:119:139:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:125:132:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void argConvGLcpara2( double cparam[3][4], int width, int height, double gnear, double gfar, double m[16], bool invert )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:126:96:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static int  arParamDecompMat( double source[3][4], double cpara[3][4], double trans[3][4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:271:139:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void CameraParameters::argConvGLcpara2( double cparam[3][4], int width, int height, double gnear, double gfar, double m[16], bool invert )[01;35m[Kthrow[m[K(cv::Exception)
+                                                                                                                                           [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:33:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:30[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:76:104:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, const CameraParameters &CP, bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:33:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:30[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:83:129:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, cv::Mat  CameraMatrix, cv::Mat Distorsion=cv::Mat(), bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:88:61:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(  double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:100:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:341:102:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ int CameraParameters::arParamDecompMat( double source[3][4], double cpara[3][4], double trans[3][4] )[01;35m[Kthrow[m[K(cv::Exception)
+                                                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp:422:148:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void CameraParameters::OgreGetProjectionMatrix(cv::Size orgImgSize, cv::Size size, double proj_matrix[16], double gnear, double gfar, bool invert) [01;35m[Kthrow[m[K(cv::Exception)
+                                                                                                                                                    [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:33:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:131[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cvdrawingutils.h:31[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:58:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     CameraParameters(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:64:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setParams(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:33:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:131[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cvdrawingutils.h:31[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:79:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string path)[01;35m[Kthrow[m[K(cv::Exception);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:82:49:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string path,bool inXML=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:86:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromXMLFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:90:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void resize(cv::Size size)[01;35m[Kthrow[m[K(cv::Exception);
+                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:107:137:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:119:139:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:125:132:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void argConvGLcpara2( double cparam[3][4], int width, int height, double gnear, double gfar, double m[16], bool invert )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:126:96:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static int  arParamDecompMat( double source[3][4], double cpara[3][4], double trans[3][4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:35:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:131[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cvdrawingutils.h:31[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:76:104:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, const CameraParameters &CP, bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:35:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:131[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cvdrawingutils.h:31[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:83:129:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, cv::Mat  CameraMatrix, cv::Mat Distorsion=cv::Mat(), bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:88:61:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(  double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:100:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:131:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cvdrawingutils.h:31[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:84:191:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void detect(const cv::Mat &input, std::vector<Marker> &detectedMarkers, cv::Mat camMatrix=cv::Mat(), cv::Mat distCoeff=cv::Mat(), float markerSizeMeters=-1, bool setYPerpendicular=true) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:95:161:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void detect(const cv::Mat &input, std::vector<Marker> &detectedMarkers, CameraParameters camParams, float markerSizeMeters=-1, bool setYPerpendicular=true) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:161:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setMinMaxSize(float min=0.03,float max=0.5)[01;35m[Kthrow[m[K(cv::Exception);
+                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:224:103:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void thresHold(int method,const cv::Mat &grey,cv::Mat &thresImg,double param1=-1,double param2=-1)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:244:87:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     bool warp(cv::Mat &in,cv::Mat &out,cv::Size size, std::vector<cv::Point2f> points)[01;35m[Kthrow[m[K (cv::Exception);
+                                                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:267:174:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void glGetProjectionMatrix( CameraParameters &  CamMatrix,cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:272:88:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     bool warp_cylinder ( cv::Mat &in,cv::Mat &out,cv::Size size, MarkerCandidate& mc ) [01;35m[Kthrow[m[K ( cv::Exception );
+                                                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:30[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:89:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:92:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:108:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const MarkerInfo& getMarkerInfo(int id)const [01;35m[Kthrow[m[K (cv::Exception);
+                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:115:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:118:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:143:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:155:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:160:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:163:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                       [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:30:0[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:65:55:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static cv::Mat createMarkerImage(int id,int size) [01;35m[Kthrow[m[K (cv::Exception);
+                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:76:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static cv::Mat getMarkerMat(int id) [01;35m[Kthrow[m[K (cv::Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:86:153:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static  cv::Mat createBoardImage( cv::Size  gridSize,int MarkerSize,int MarkerDistance,  BoardConfiguration& TInfo ,vector<int> *excludedIds=NULL ) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:96:170:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static  cv::Mat  createBoardImage_ChessBoard( cv::Size gridSize,int MarkerSize, BoardConfiguration& TInfo ,bool setDataCentered=true ,vector<int> *excludedIds=NULL) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:106:185:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static  cv::Mat  createBoardImage_Frame( cv::Size gridSize,int MarkerSize,int MarkerDistance,  BoardConfiguration& TInfo ,bool setDataCentered=true,vector<int> *excludedIds=NULL ) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:110:92:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static vector<int> getListOfValidMarkersIds_random(int nMarkers,vector<int> *excluded) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:44:60:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   Mat FiducidalMarkers::createMarkerImage(int id,int size) [01;35m[Kthrow[m[K (cv::Exception)
+                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:69:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   cv::Mat FiducidalMarkers::getMarkerMat(int id) [01;35m[Kthrow[m[K (cv::Exception)
+                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:95:152:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   cv::Mat  FiducidalMarkers::createBoardImage( Size gridSize,int MarkerSize,int MarkerDistance,  BoardConfiguration& TInfo  ,vector<int> *excludedIds) [01;35m[Kthrow[m[K (cv::Exception)
+                                                                                                                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:141:160:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   cv::Mat  FiducidalMarkers::createBoardImage_ChessBoard( Size gridSize,int MarkerSize,  BoardConfiguration& TInfo ,bool centerData ,vector<int> *excludedIds) [01;35m[Kthrow[m[K (cv::Exception)
+                                                                                                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:32:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:132[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cvdrawingutils.h:31[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:89:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:92:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:108:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const MarkerInfo& getMarkerInfo(int id)const [01;35m[Kthrow[m[K (cv::Exception);
+                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:115:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:118:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:201:173:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   cv::Mat  FiducidalMarkers::createBoardImage_Frame( Size gridSize,int MarkerSize,int MarkerDistance, BoardConfiguration& TInfo ,bool centerData,vector<int> *excludedIds ) [01;35m[Kthrow[m[K (cv::Exception)
+                                                                                                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:143:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:155:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:160:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:163:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                       [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:132:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cvdrawingutils.h:31[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:83:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     float  detect(const cv::Mat &im)[01;35m[Kthrow[m[K (cv::Exception);
+                                     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:132:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cvdrawingutils.h:31[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:108:192:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     float detect(const vector<Marker> &detectedMarkers,const  BoardConfiguration &BConf, Board &Bdetected, cv::Mat camMatrix=cv::Mat(),cv::Mat distCoeff=cv::Mat(), float markerSizeMeters=-1 )[01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:109:162:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     float detect(const vector<Marker> &detectedMarkers,const  BoardConfiguration &BConf, Board &Bdetected,const CameraParameters &cp, float markerSizeMeters=-1 )[01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/arucofidmarkers.cpp:426:101:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   vector<int> FiducidalMarkers::getListOfValidMarkersIds_random(int nMarkers,vector<int> *excluded) [01;35m[Kthrow[m[K (cv::Exception)
+                                                                                                     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:34[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:58:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     CameraParameters(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:64:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setParams(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:34[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:79:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string path)[01;35m[Kthrow[m[K(cv::Exception);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:82:49:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string path,bool inXML=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:86:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromXMLFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:90:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void resize(cv::Size size)[01;35m[Kthrow[m[K(cv::Exception);
+                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:107:137:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:119:139:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:125:132:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void argConvGLcpara2( double cparam[3][4], int width, int height, double gnear, double gfar, double m[16], bool invert )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:126:96:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static int  arParamDecompMat( double source[3][4], double cpara[3][4], double trans[3][4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:76:104:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, const CameraParameters &CP, bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:83:129:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, cv::Mat  CameraMatrix, cv::Mat Distorsion=cv::Mat(), bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:88:61:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(  double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:100:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:28:0[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:89:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:92:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:108:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const MarkerInfo& getMarkerInfo(int id)const [01;35m[Kthrow[m[K (cv::Exception);
+                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:115:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:118:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:143:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:155:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:160:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:163:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:67:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void BoardConfiguration::saveToFile ( string sfile ) [01;35m[Kthrow[m[K ( cv::Exception )
+                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:76:57:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void BoardConfiguration::saveToFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception) {
+                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:97:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void BoardConfiguration::readFromFile ( string sfile ) [01;35m[Kthrow[m[K ( cv::Exception )
+                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:107:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void BoardConfiguration::readFromFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception)
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:144:66:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ const MarkerInfo& BoardConfiguration::getMarkerInfo(int id)const [01;35m[Kthrow[m[K (cv::Exception)
+                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:155:66:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void Board::glGetModelViewMatrix ( double modelview_matrix[16] ) [01;35m[Kthrow[m[K ( cv::Exception )
+                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:210:81:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void Board::OgreGetPoseParameters ( double position[3], double orientation[4] ) [01;35m[Kthrow[m[K ( cv::Exception )
+                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:301:40:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void Board::saveToFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception)
+                                        [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/board.cpp:330:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void Board::readFromFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception)
+                                          [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/marker.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:58:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     CameraParameters(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:64:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setParams(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/marker.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:79:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string path)[01;35m[Kthrow[m[K(cv::Exception);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:82:49:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string path,bool inXML=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:86:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromXMLFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:90:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void resize(cv::Size size)[01;35m[Kthrow[m[K(cv::Exception);
+                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:107:137:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:119:139:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:125:132:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void argConvGLcpara2( double cparam[3][4], int width, int height, double gnear, double gfar, double m[16], bool invert )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:126:96:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static int  arParamDecompMat( double source[3][4], double cpara[3][4], double trans[3][4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/marker.cpp:28:0[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:76:104:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, const CameraParameters &CP, bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/marker.cpp:28:0[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:83:129:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, cv::Mat  CameraMatrix, cv::Mat Distorsion=cv::Mat(), bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:88:61:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(  double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:100:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/marker.cpp:74:68:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void Marker::glGetModelViewMatrix(   double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception)
+                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/marker.cpp:128:81:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void Marker::OgreGetPoseParameters(double position[3], double orientation[4]) [01;35m[Kthrow[m[K(cv::Exception)
+                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/marker.cpp:242:103:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void Marker::calculateExtrinsics(float markerSize,const CameraParameters &CP,bool setYPerpendicular)[01;35m[Kthrow[m[K(cv::Exception)
+                                                                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/marker.cpp:253:123:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void Marker::calculateExtrinsics(float markerSizeMeters, cv::Mat  camMatrix, cv::Mat distCoeff , bool setYPerpendicular)[01;35m[Kthrow[m[K(cv::Exception)
+                                                                                                                           [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:34[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:32[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp:29[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:58:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     CameraParameters(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:64:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setParams(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:34[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:32[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp:29[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:79:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string path)[01;35m[Kthrow[m[K(cv::Exception);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:82:49:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string path,bool inXML=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:86:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromXMLFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:90:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void resize(cv::Size size)[01;35m[Kthrow[m[K(cv::Exception);
+                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:107:137:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:119:139:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:125:132:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void argConvGLcpara2( double cparam[3][4], int width, int height, double gnear, double gfar, double m[16], bool invert )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:126:96:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static int  arParamDecompMat( double source[3][4], double cpara[3][4], double trans[3][4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:32[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp:29[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:76:104:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, const CameraParameters &CP, bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:32[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp:29[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:83:129:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, cv::Mat  CameraMatrix, cv::Mat Distorsion=cv::Mat(), bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:88:61:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(  double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:100:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:32:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp:29[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:89:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:92:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:108:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const MarkerInfo& getMarkerInfo(int id)const [01;35m[Kthrow[m[K (cv::Exception);
+                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:115:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:118:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:143:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:155:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:160:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:163:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                       [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp:29[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:84:191:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void detect(const cv::Mat &input, std::vector<Marker> &detectedMarkers, cv::Mat camMatrix=cv::Mat(), cv::Mat distCoeff=cv::Mat(), float markerSizeMeters=-1, bool setYPerpendicular=true) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:95:161:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void detect(const cv::Mat &input, std::vector<Marker> &detectedMarkers, CameraParameters camParams, float markerSizeMeters=-1, bool setYPerpendicular=true) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:161:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setMinMaxSize(float min=0.03,float max=0.5)[01;35m[Kthrow[m[K(cv::Exception);
+                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:224:103:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void thresHold(int method,const cv::Mat &grey,cv::Mat &thresImg,double param1=-1,double param2=-1)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:244:87:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     bool warp(cv::Mat &in,cv::Mat &out,cv::Size size, std::vector<cv::Point2f> points)[01;35m[Kthrow[m[K (cv::Exception);
+                                                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:267:174:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void glGetProjectionMatrix( CameraParameters &  CamMatrix,cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:272:88:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     bool warp_cylinder ( cv::Mat &in,cv::Mat &out,cv::Size size, MarkerCandidate& mc ) [01;35m[Kthrow[m[K ( cv::Exception );
+                                                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp:29:0[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:83:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     float  detect(const cv::Mat &im)[01;35m[Kthrow[m[K (cv::Exception);
+                                     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp:29:0[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:108:192:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     float detect(const vector<Marker> &detectedMarkers,const  BoardConfiguration &BConf, Board &Bdetected, cv::Mat camMatrix=cv::Mat(),cv::Mat distCoeff=cv::Mat(), float markerSizeMeters=-1 )[01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:109:162:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     float detect(const vector<Marker> &detectedMarkers,const  BoardConfiguration &BConf, Board &Bdetected,const CameraParameters &cp, float markerSizeMeters=-1 )[01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp:64:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   float  BoardDetector::detect(const cv::Mat &im)[01;35m[Kthrow[m[K (cv::Exception)
+                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp:76:175:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   float BoardDetector::detect ( const vector<Marker> &detectedMarkers,const  BoardConfiguration &BConf, Board &Bdetected,const CameraParameters &cp, float markerSizeMeters ) [01;35m[Kthrow[m[K ( cv::Exception )
+                                                                                                                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/boarddetector.cpp:81:176:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   float BoardDetector::detect ( const vector<Marker> &detectedMarkers,const  BoardConfiguration &BConf, Board &Bdetected, Mat camMatrix,Mat distCoeff,float markerSizeMeters ) [01;35m[Kthrow[m[K ( cv::Exception )
+                                                                                                                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:33:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:58:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     CameraParameters(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:64:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setParams(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:33:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:79:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string path)[01;35m[Kthrow[m[K(cv::Exception);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:82:49:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string path,bool inXML=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:86:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromXMLFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:90:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void resize(cv::Size size)[01;35m[Kthrow[m[K(cv::Exception);
+                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:107:137:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:119:139:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:125:132:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void argConvGLcpara2( double cparam[3][4], int width, int height, double gnear, double gfar, double m[16], bool invert )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:126:96:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static int  arParamDecompMat( double source[3][4], double cpara[3][4], double trans[3][4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:35:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:76:104:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, const CameraParameters &CP, bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:35:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:28[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:83:129:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, cv::Mat  CameraMatrix, cv::Mat Distorsion=cv::Mat(), bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:88:61:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(  double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:100:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:28:0[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:84:191:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void detect(const cv::Mat &input, std::vector<Marker> &detectedMarkers, cv::Mat camMatrix=cv::Mat(), cv::Mat distCoeff=cv::Mat(), float markerSizeMeters=-1, bool setYPerpendicular=true) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:95:161:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void detect(const cv::Mat &input, std::vector<Marker> &detectedMarkers, CameraParameters camParams, float markerSizeMeters=-1, bool setYPerpendicular=true) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:161:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setMinMaxSize(float min=0.03,float max=0.5)[01;35m[Kthrow[m[K(cv::Exception);
+                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:224:103:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void thresHold(int method,const cv::Mat &grey,cv::Mat &thresImg,double param1=-1,double param2=-1)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:244:87:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     bool warp(cv::Mat &in,cv::Mat &out,cv::Size size, std::vector<cv::Point2f> points)[01;35m[Kthrow[m[K (cv::Exception);
+                                                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:267:174:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void glGetProjectionMatrix( CameraParameters &  CamMatrix,cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:272:88:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     bool warp_cylinder ( cv::Mat &in,cv::Mat &out,cv::Size size, MarkerCandidate& mc ) [01;35m[Kthrow[m[K ( cv::Exception );
+                                                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:34:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:33[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:89:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:92:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:108:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const MarkerInfo& getMarkerInfo(int id)const [01;35m[Kthrow[m[K (cv::Exception);
+                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:115:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:118:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:143:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:155:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:160:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:163:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                       [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:33:0[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:65:55:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static cv::Mat createMarkerImage(int id,int size) [01;35m[Kthrow[m[K (cv::Exception);
+                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:76:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static cv::Mat getMarkerMat(int id) [01;35m[Kthrow[m[K (cv::Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:86:153:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static  cv::Mat createBoardImage( cv::Size  gridSize,int MarkerSize,int MarkerDistance,  BoardConfiguration& TInfo ,vector<int> *excludedIds=NULL ) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:96:170:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static  cv::Mat  createBoardImage_ChessBoard( cv::Size gridSize,int MarkerSize, BoardConfiguration& TInfo ,bool setDataCentered=true ,vector<int> *excludedIds=NULL) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:106:185:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static  cv::Mat  createBoardImage_Frame( cv::Size gridSize,int MarkerSize,int MarkerDistance,  BoardConfiguration& TInfo ,bool setDataCentered=true,vector<int> *excludedIds=NULL ) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:110:92:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static vector<int> getListOfValidMarkersIds_random(int nMarkers,vector<int> *excluded) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:107:169:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void MarkerDetector::detect ( const  cv::Mat &input,std::vector<Marker> &detectedMarkers, CameraParameters camParams ,float markerSizeMeters ,bool setYPerpendicular) [01;35m[Kthrow[m[K ( cv::Exception )
+                                                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:119:165:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void MarkerDetector::detect ( const  cv::Mat &input,vector<Marker> &detectedMarkers,Mat camMatrix ,Mat distCoeff ,float markerSizeMeters ,bool setYPerpendicular) [01;35m[Kthrow[m[K ( cv::Exception )
+                                                                                                                                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:411:104:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void MarkerDetector::thresHold ( int method,const Mat &grey_m,Mat &out,double param1,double param2 ) [01;35m[Kthrow[m[K ( cv::Exception )
+                                                                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:454:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   bool MarkerDetector::warp ( Mat &in,Mat &out,Size size, vector<Point2f> points ) [01;35m[Kthrow[m[K ( cv::Exception )
+                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:557:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   bool MarkerDetector::warp_cylinder ( Mat &in,Mat &out,Size size, MarkerCandidate& mcand ) [01;35m[Kthrow[m[K ( cv::Exception )
+                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:990:3:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   [01;35m[Kthrow[m[K ( cv::Exception )
+   [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:1003:60:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   void MarkerDetector::setMinMaxSize(float min ,float max )[01;35m[Kthrow[m[K(cv::Exception)
+                                                            [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:33:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:131[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/aruco_selectoptimalmarkers.cpp:36[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:58:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     CameraParameters(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:64:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setParams(cv::Mat cameraMatrix,cv::Mat distorsionCoeff,cv::Size size) [01;35m[Kthrow[m[K(cv::Exception);
+                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:33:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:131[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/aruco_selectoptimalmarkers.cpp:36[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:79:35:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string path)[01;35m[Kthrow[m[K(cv::Exception);
+                                   [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:82:49:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string path,bool inXML=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:86:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromXMLFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:90:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void resize(cv::Size size)[01;35m[Kthrow[m[K(cv::Exception);
+                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:107:137:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:119:139:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetProjectionMatrix( cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:125:132:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void argConvGLcpara2( double cparam[3][4], int width, int height, double gnear, double gfar, double m[16], bool invert )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/cameraparameters.h:126:96:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static int  arParamDecompMat( double source[3][4], double cpara[3][4], double trans[3][4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:35:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:131[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/aruco_selectoptimalmarkers.cpp:36[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:76:104:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, const CameraParameters &CP, bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:35:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:131[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/aruco_selectoptimalmarkers.cpp:36[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:83:129:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void calculateExtrinsics(float markerSize, cv::Mat  CameraMatrix, cv::Mat Distorsion=cv::Mat(), bool setYPerpendicular=true)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:88:61:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(  double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/marker.h:100:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:131:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/aruco_selectoptimalmarkers.cpp:36[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:84:191:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void detect(const cv::Mat &input, std::vector<Marker> &detectedMarkers, cv::Mat camMatrix=cv::Mat(), cv::Mat distCoeff=cv::Mat(), float markerSizeMeters=-1, bool setYPerpendicular=true) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:95:161:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void detect(const cv::Mat &input, std::vector<Marker> &detectedMarkers, CameraParameters camParams, float markerSizeMeters=-1, bool setYPerpendicular=true) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:161:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void setMinMaxSize(float min=0.03,float max=0.5)[01;35m[Kthrow[m[K(cv::Exception);
+                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:224:103:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void thresHold(int method,const cv::Mat &grey,cv::Mat &thresImg,double param1=-1,double param2=-1)[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:244:87:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     bool warp(cv::Mat &in,cv::Mat &out,cv::Size size, std::vector<cv::Point2f> points)[01;35m[Kthrow[m[K (cv::Exception);
+                                                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:267:174:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static void glGetProjectionMatrix( CameraParameters &  CamMatrix,cv::Size orgImgSize, cv::Size size,double proj_matrix[16],double gnear,double gfar,bool invert=false   )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                                                                                                                              [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/markerdetector.h:272:88:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     bool warp_cylinder ( cv::Mat &in,cv::Mat &out,cv::Size size, MarkerCandidate& mc ) [01;35m[Kthrow[m[K ( cv::Exception );
+                                                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:32:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:132[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/aruco_selectoptimalmarkers.cpp:36[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:89:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:92:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string sfile)[01;35m[Kthrow[m[K (cv::Exception);
+                                    [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:108:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     const MarkerInfo& getMarkerInfo(int id)const [01;35m[Kthrow[m[K (cv::Exception);
+                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:115:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:118:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(cv::FileStorage &fs)[01;35m[Kthrow[m[K (cv::Exception);
+                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:143:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void glGetModelViewMatrix(double modelview_matrix[16])[01;35m[Kthrow[m[K(cv::Exception);
+                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:155:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void OgreGetPoseParameters(  double position[3], double orientation[4] )[01;35m[Kthrow[m[K(cv::Exception);
+                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:160:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void saveToFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                     [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/board.h:163:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     void readFromFile(string filePath)[01;35m[Kthrow[m[K(cv::Exception);
+                                       [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:132:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/aruco_selectoptimalmarkers.cpp:36[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:83:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     float  detect(const cv::Mat &im)[01;35m[Kthrow[m[K (cv::Exception);
+                                     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/aruco.h:132:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/aruco_selectoptimalmarkers.cpp:36[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:108:192:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     float detect(const vector<Marker> &detectedMarkers,const  BoardConfiguration &BConf, Board &Bdetected, cv::Mat camMatrix=cv::Mat(),cv::Mat distCoeff=cv::Mat(), float markerSizeMeters=-1 )[01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/boarddetector.h:109:162:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     float detect(const vector<Marker> &detectedMarkers,const  BoardConfiguration &BConf, Board &Bdetected,const CameraParameters &cp, float markerSizeMeters=-1 )[01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                  [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/src/aruco/aruco_selectoptimalmarkers.cpp:39:0[m[K:
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:65:55:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static cv::Mat createMarkerImage(int id,int size) [01;35m[Kthrow[m[K (cv::Exception);
+                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:76:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static cv::Mat getMarkerMat(int id) [01;35m[Kthrow[m[K (cv::Exception);
+                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:86:153:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static  cv::Mat createBoardImage( cv::Size  gridSize,int MarkerSize,int MarkerDistance,  BoardConfiguration& TInfo ,vector<int> *excludedIds=NULL ) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:96:170:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static  cv::Mat  createBoardImage_ChessBoard( cv::Size gridSize,int MarkerSize, BoardConfiguration& TInfo ,bool setDataCentered=true ,vector<int> *excludedIds=NULL) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                          [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:106:185:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static  cv::Mat  createBoardImage_Frame( cv::Size gridSize,int MarkerSize,int MarkerDistance,  BoardConfiguration& TInfo ,bool setDataCentered=true,vector<int> *excludedIds=NULL ) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                                                                                                                         [01;35m[K^~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/aruco_ros/aruco/include/aruco/arucofidmarkers.h:110:92:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+     static vector<int> getListOfValidMarkersIds_random(int nMarkers,vector<int> *excluded) [01;35m[Kthrow[m[K (cv::Exception);
+                                                                                            [01;35m[K^~~~~[m[K

@@ -1,0 +1,6 @@
+[ 13%] Built target utils
+[ 27%] Built target sensor_base
+[ 40%] Built target sensor_range
+[ 54%] Built target sensor_odometry
+[ 77%] Built target scanmatcher
+[100%] Built target gridfastslam

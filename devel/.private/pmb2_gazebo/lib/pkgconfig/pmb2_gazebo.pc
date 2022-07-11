@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/pmb2_gazebo
+
+Name: pmb2_gazebo
+Description: Description of pmb2_gazebo
+Version: 1.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

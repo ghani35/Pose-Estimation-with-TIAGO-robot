@@ -1,0 +1,1 @@
+/home/ghani/tiago_public_ws/devel/.private/pal_navigation_msgs/share/roseus/ros/pal_navigation_msgs/srv/GetNodes.l

@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/eband_local_planner
+
+Name: eband_local_planner
+Description: Description of eband_local_planner
+Version: 0.3.2
+Cflags: -I/home/ghani/tiago_public_ws/devel/.private/eband_local_planner/include -I/home/ghani/tiago_public_ws/src/eband_local_planner/include
+Libs: -L${prefix}/lib -leband_local_planner
+Requires: base_local_planner control_toolbox costmap_2d geometry_msgs nav_core nav_msgs pluginlib roscpp tf2_eigen tf2_geometry_msgs tf2_ros dynamic_reconfigure

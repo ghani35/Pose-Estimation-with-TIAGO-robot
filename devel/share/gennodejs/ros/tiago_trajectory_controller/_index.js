@@ -1,0 +1,1 @@
+/home/ghani/tiago_public_ws/devel/.private/tiago_trajectory_controller/share/gennodejs/ros/tiago_trajectory_controller/_index.js

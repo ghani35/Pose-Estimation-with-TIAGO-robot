@@ -1,0 +1,16 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[31mCMake Error at /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:263 (message):
+  Messages depends on unknown pkg: sensor_msgs (Missing
+  'find_package(sensor_msgs)'?)
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:18 (generate_messages)
+
+[0m
+make: *** [cmake_check_build_system] Error 1

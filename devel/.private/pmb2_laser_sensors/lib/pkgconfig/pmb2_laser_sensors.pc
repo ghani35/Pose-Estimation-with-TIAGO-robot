@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/pmb2_laser_sensors
+
+Name: pmb2_laser_sensors
+Description: Description of pmb2_laser_sensors
+Version: 2.0.12
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

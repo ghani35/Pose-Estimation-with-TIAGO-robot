@@ -1,0 +1,19 @@
+[01m[K/home/ghani/tiago_public_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_vacuum_gripper.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboRosVacuumGripper::UpdateChild()[m[K’:
+[01m[K/home/ghani/tiago_public_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_vacuum_gripper.cpp:206:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gazebo::physics::Link::SetLinearAccel(const Vector3d&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+         links[j]->SetLinearAccel(link_->WorldLinearAccel()[01;35m[K)[m[K;
+                                                           [01;35m[K^[m[K
+In file included from [01m[K/usr/include/gazebo-9/gazebo/physics/physics.hh:28:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_vacuum_gripper.h:38[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_vacuum_gripper.cpp:28[m[K:
+[01m[K/usr/include/gazebo-9/gazebo/physics/Link.hh:169:20:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: void [01;36m[KSetLinearAccel[m[K(const ignition::math::Vector3d &_accel)
+                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_vacuum_gripper.cpp:207:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gazebo::physics::Link::SetAngularAccel(const Vector3d&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+         links[j]->SetAngularAccel(link_->WorldAngularAccel()[01;35m[K)[m[K;
+                                                             [01;35m[K^[m[K
+In file included from [01m[K/usr/include/gazebo-9/gazebo/physics/physics.hh:28:0[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_vacuum_gripper.h:38[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_vacuum_gripper.cpp:28[m[K:
+[01m[K/usr/include/gazebo-9/gazebo/physics/Link.hh:176:20:[m[K [01;36m[Knote: [m[Kdeclared here
+       public: void [01;36m[KSetAngularAccel[m[K(const ignition::math::Vector3d &_accel)
+                    [01;36m[K^~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,140 @@
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const ConstPtr&)[m[K’:
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:69:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >::_points_type {aka std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >}[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+   goal.trajectory.points[01;31m[K[[m[Kindex].positions.resize(7);
+                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:45[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:70:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >::_points_type {aka std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >}[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+   goal.trajectory.points[01;31m[K[[m[Kindex].positions[0] = arr[0];
+                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:45[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:71:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >::_points_type {aka std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >}[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+   goal.trajectory.points[01;31m[K[[m[Kindex].positions[1] = arr[1];
+                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:45[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:72:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >::_points_type {aka std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >}[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+   goal.trajectory.points[01;31m[K[[m[Kindex].positions[2] = arr[2];
+                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:45[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:73:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >::_points_type {aka std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >}[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+   goal.trajectory.points[01;31m[K[[m[Kindex].positions[3] = arr[3];
+                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:45[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:74:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >::_points_type {aka std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >}[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+   goal.trajectory.points[01;31m[K[[m[Kindex].positions[4] = arr[4];
+                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:45[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:75:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >::_points_type {aka std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >}[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+   goal.trajectory.points[01;31m[K[[m[Kindex].positions[5] = arr[5];
+                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:45[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:76:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >::_points_type {aka std::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >}[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+   goal.trajectory.points[01;31m[K[[m[Kindex].positions[6] = arr[6];
+                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:45[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::reference = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:795:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >; _Alloc = std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::const_reference = const trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       [01;36m[Koperator[m[K[](size_type __n) const _GLIBCXX_NOEXCEPT
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:813:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::vector<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::JointTrajectoryPoint_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K’
+make[2]: *** [CMakeFiles/run_traj_control.dir/src/run_traj_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/run_traj_control.dir/all] Error 2
+make: *** [all] Error 2

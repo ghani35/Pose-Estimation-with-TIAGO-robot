@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: dynamic_introspection
+Description: Description of dynamic_introspection
+Version: 1.0.12
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -ldynamic_introspection
+Requires: roscpp message_generation rosbag pal_statistics visualization_msgs backward_ros std_msgs

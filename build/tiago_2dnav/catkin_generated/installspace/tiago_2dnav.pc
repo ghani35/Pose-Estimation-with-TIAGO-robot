@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: tiago_2dnav
+Description: Description of tiago_2dnav
+Version: 2.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

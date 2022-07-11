@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: tiago_description_calibration
+Description: Description of tiago_description_calibration
+Version: 0.0.8
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

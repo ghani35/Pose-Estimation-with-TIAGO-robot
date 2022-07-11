@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/play_motion_msgs
+
+Name: play_motion_msgs
+Description: Description of play_motion_msgs
+Version: 0.4.10
+Cflags: -I/home/ghani/tiago_public_ws/devel/.private/play_motion_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime actionlib_msgs

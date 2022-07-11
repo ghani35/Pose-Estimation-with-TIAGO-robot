@@ -1,0 +1,20 @@
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _pal_wifi_localization_msgs_generate_messages_check_deps_GetWifiMap
+[  0%] Built target _pal_wifi_localization_msgs_generate_messages_check_deps_WifiSignalList
+[  0%] Built target _pal_wifi_localization_msgs_generate_messages_check_deps_WifiSignal
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _pal_wifi_localization_msgs_generate_messages_check_deps_WifiSignalMap
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[ 26%] Built target pal_wifi_localization_msgs_generate_messages_py
+[ 43%] Built target pal_wifi_localization_msgs_generate_messages_cpp
+[ 65%] Built target pal_wifi_localization_msgs_generate_messages_eus
+[ 82%] Built target pal_wifi_localization_msgs_generate_messages_lisp
+[100%] Built target pal_wifi_localization_msgs_generate_messages_nodejs
+[100%] Built target pal_wifi_localization_msgs_generate_messages

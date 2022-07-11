@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: effort_controllers
+Description: Description of effort_controllers
+Version: 0.4.6
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -leffort_controllers
+Requires: angles controller_interface control_msgs control_toolbox forward_command_controller realtime_tools urdf

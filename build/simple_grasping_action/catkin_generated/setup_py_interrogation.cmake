@@ -1,0 +1,7 @@
+set(simple_grasping_action_SETUP_PY_SETUP_MODULE "distutils.core")
+set(simple_grasping_action_SETUP_PY_VERSION "1.0.1")
+set(simple_grasping_action_SETUP_PY_SCRIPTS "")
+set(simple_grasping_action_SETUP_PY_PACKAGES "simple_grasping_action")
+set(simple_grasping_action_SETUP_PY_PACKAGE_DIRS "src/simple_grasping_action")
+set(simple_grasping_action_SETUP_PY_MODULES "")
+set(simple_grasping_action_SETUP_PY_MODULE_DIRS "")

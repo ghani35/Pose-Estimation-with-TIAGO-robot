@@ -1,0 +1,1 @@
+/home/ghani/tiago_public_ws/devel/.private/joint_torque_sensor_state_controller/lib/pkgconfig/joint_torque_sensor_state_controller.pc

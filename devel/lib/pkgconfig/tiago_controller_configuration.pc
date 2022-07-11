@@ -1,0 +1,1 @@
+/home/ghani/tiago_public_ws/devel/.private/tiago_controller_configuration/lib/pkgconfig/tiago_controller_configuration.pc

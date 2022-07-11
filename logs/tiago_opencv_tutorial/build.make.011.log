@@ -1,0 +1,16 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _tiago_opencv_tutorial_generate_messages_check_deps_valueMatrix
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 13%] Built target tiago_opencv_tutorial_generate_messages_py
+[ 20%] Built target tiago_opencv_tutorial_generate_messages_cpp
+[ 33%] Built target tiago_opencv_tutorial_generate_messages_eus
+[ 46%] Built target tiago_opencv_tutorial_generate_messages_nodejs
+[ 46%] Built target tiago_opencv_tutorial_generate_messages_lisp
+[ 60%] Built target track_sequential
+[ 80%] Built target corner_detection
+[ 86%] Built target find_keypoints
+[100%] Built target flann_matching
+[100%] Built target tiago_opencv_tutorial_generate_messages

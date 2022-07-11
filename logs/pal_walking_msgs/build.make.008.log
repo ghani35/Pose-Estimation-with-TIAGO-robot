@@ -1,0 +1,24 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target humanoid_nav_msgs_generate_messages_py
+[  0%] Built target _pal_walking_msgs_generate_messages_check_deps_SMStatus
+[  0%] Built target _pal_walking_msgs_generate_messages_check_deps_WalkingStep
+[  0%] Built target _pal_walking_msgs_generate_messages_check_deps_Sit
+[  0%] Built target _pal_walking_msgs_generate_messages_check_deps_ContactState
+[  0%] Built target _pal_walking_msgs_generate_messages_check_deps_WalkingStatus
+[  0%] Built target _pal_walking_msgs_generate_messages_check_deps_StepOver
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _pal_walking_msgs_generate_messages_check_deps_MoveHipFeet
+[  0%] Built target humanoid_nav_msgs_generate_messages_cpp
+[  0%] Built target _pal_walking_msgs_generate_messages_check_deps_WalkSteps
+[  0%] Built target humanoid_nav_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target humanoid_nav_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target humanoid_nav_msgs_generate_messages_nodejs
+[ 23%] Built target pal_walking_msgs_generate_messages_py
+[ 41%] Built target pal_walking_msgs_generate_messages_cpp
+[ 60%] Built target pal_walking_msgs_generate_messages_nodejs
+[ 79%] Built target pal_walking_msgs_generate_messages_lisp
+[100%] Built target pal_walking_msgs_generate_messages_eus
+[100%] Built target pal_walking_msgs_generate_messages

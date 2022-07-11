@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/backward_ros
+
+Name: backward_ros
+Description: Description of backward_ros
+Version: 0.1.8
+Cflags: -I/home/ghani/tiago_public_ws/src/backward_ros/include
+Libs: -L${prefix}/lib -lbackward
+Requires: 

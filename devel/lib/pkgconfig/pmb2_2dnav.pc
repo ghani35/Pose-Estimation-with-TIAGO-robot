@@ -1,0 +1,1 @@
+/home/ghani/tiago_public_ws/devel/.private/pmb2_2dnav/lib/pkgconfig/pmb2_2dnav.pc

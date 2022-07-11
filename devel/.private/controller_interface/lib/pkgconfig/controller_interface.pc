@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/controller_interface
+
+Name: controller_interface
+Description: Description of controller_interface
+Version: 0.5.1
+Cflags: -I/home/ghani/tiago_public_ws/src/ros_control/controller_interface/include
+Libs: -L${prefix}/lib 
+Requires: roscpp hardware_interface pluginlib

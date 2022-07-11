@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: key_teleop
+Description: Description of key_teleop
+Version: 0.3.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

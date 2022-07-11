@@ -1,0 +1,13 @@
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _pal_tablet_msgs_generate_messages_check_deps_RobotStatus
+[  0%] Built target _pal_tablet_msgs_generate_messages_check_deps_FunctionalityStatus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[ 25%] Built target pal_tablet_msgs_generate_messages_eus
+[ 58%] Built target pal_tablet_msgs_generate_messages_nodejs
+[ 58%] Built target pal_tablet_msgs_generate_messages_lisp
+[ 75%] Built target pal_tablet_msgs_generate_messages_cpp
+[100%] Built target pal_tablet_msgs_generate_messages_py
+[100%] Built target pal_tablet_msgs_generate_messages

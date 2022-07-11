@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/pal_hardware_gazebo
+
+Name: pal_hardware_gazebo
+Description: Description of pal_hardware_gazebo
+Version: 1.0.1
+Cflags: -I/home/ghani/tiago_public_ws/src/pal_hardware_gazebo/include -I/usr/include -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -I/usr/include/ignition/math4 -I/usr/include/OGRE/ -I/usr/include/OGRE/Terrain/ -I/usr/include/OGRE/Paging/ -I/usr/include/ignition/transport4 -I/usr/include/ignition/msgs1 -I/usr/include/ignition/common1 -I/usr/include/ignition/fuel_tools1
+Libs: -L${prefix}/lib -lpal_hardware_gazebo
+Requires: control_toolbox hardware_interface joint_limits_interface gazebo_ros_control

@@ -1,0 +1,1 @@
+/home/ghani/tiago_public_ws/devel/.private/pal_visual_localization_msgs/share/roseus/ros/pal_visual_localization_msgs/msg/VisualLocRecognizeGoal.l

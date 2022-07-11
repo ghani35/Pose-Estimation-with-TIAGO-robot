@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: controller_manager_tests
+Description: Description of controller_manager_tests
+Version: 0.5.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lcontroller_manager_tests
+Requires: controller_manager controller_interface

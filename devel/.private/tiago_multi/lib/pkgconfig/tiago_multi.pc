@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/devel/.private/tiago_multi
+
+Name: tiago_multi
+Description: Description of tiago_multi
+Version: 2.3.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

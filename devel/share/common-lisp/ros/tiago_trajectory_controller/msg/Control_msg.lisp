@@ -1,0 +1,1 @@
+/home/ghani/tiago_public_ws/devel/.private/tiago_trajectory_controller/share/common-lisp/ros/tiago_trajectory_controller/msg/Control_msg.lisp

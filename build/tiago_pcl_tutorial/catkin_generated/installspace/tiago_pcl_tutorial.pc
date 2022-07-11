@@ -1,0 +1,8 @@
+prefix=/home/ghani/tiago_public_ws/install
+
+Name: tiago_pcl_tutorial
+Description: Description of tiago_pcl_tutorial
+Version: 2.0.3
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp dynamic_reconfigure sensor_msgs

@@ -1,0 +1,11 @@
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const ConstPtr&)[m[K’:
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:66:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+   [01;31m[Kgoal[m[K.trajectory.points[index].positions.resize(7);
+   [01;31m[K^~~~[m[K
+[01m[K/home/ghani/tiago_public_ws/src/tiago_tutorials/tiago_trajectory_controller/src/run_traj_control.cpp:66:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpowl[m[K’
+   [01;36m[Kgoal[m[K.trajectory.points[index].positions.resize(7);
+   [01;36m[K^~~~[m[K
+   [32m[Kpowl[m[K
+make[2]: *** [CMakeFiles/run_traj_control.dir/src/run_traj_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/run_traj_control.dir/all] Error 2
+make: *** [all] Error 2
