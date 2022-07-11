@@ -38,6 +38,7 @@ catkin build -DCATKIN_ENABLE_TESTING=0 -j $(expr `nproc` / 2)
 6- run the first node Gesture detector  **webcam.py**, this will open the camera of your computer, and show you the landmarks
 ```
 cd /home/<username>/tiago_public_ws/Software-Architecture-Assignment/src/tiago_tutorials/tiago_trajectory_controller/src/webcam.py
+```
 rosrun tiago_trajectory_controller webcam.py
 ```
 7- run the second node (run_motion_python_node.py), this node send the desired trajectory to tiago after a correct detection of the gesture
