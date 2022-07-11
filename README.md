@@ -16,9 +16,11 @@ the trajectories are hard-coded in the yaml file (tiago_motion.yaml).
 1- Install Ubnutu 18.04 with ROS and TIAGO, by following this documentation [install](http://wiki.ros.org/Robots/TIAGo/Tutorials/Installation/InstallUbuntuAndROS)
 
 2- clone the repository
-'''bash
+
+```bash
 git clone https://github.com/ghani35/Software-Architecture-Assignment.git 
-'''
+```
+
 3- source your workspace 
  source ./devel/setup.bash
 
