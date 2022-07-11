@@ -16,7 +16,7 @@ once the gesture is correctly detected, a specific trajectory is send to the rob
 the trajectories are hard-coded in the yaml file **tiago_motion.yaml**.
 
 ## Instructions for running the simulation
-1- Install Ubnutu 18.04 with ROS and TIAGO, by following this documentation [install](http://wiki.ros.org/Robots/TIAGo/Tutorials/Installation/InstallUbuntuAndROS)
+1- Install Ubnutu 18.04 with ROS and TIAGO, by following this documentation [installation](http://wiki.ros.org/Robots/TIAGo/Tutorials/Installation/InstallUbuntuAndROS)
 
 2- clone the repository
 ```bash
