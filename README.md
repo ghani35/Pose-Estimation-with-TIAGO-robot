@@ -42,9 +42,11 @@ cd /home/<username>/tiago_public_ws/Software-Architecture-Assignment/src/tiago_t
 ```
 rosrun tiago_trajectory_controller webcam.py
 ```
-7- run the second node (run_motion_python_node.py), this node send the desired trajectory to tiago after a correct detection of the gesture
+7- run the second node **run_motion_python_node.py**, this node send the desired trajectory to tiago after a correct detection of the gesture
 ```
 cd /home/<username>/tiago_public_ws/Software-Architecture-Assignment/src/play_motion/play_motion/scripts/run_motion_python_node.py
+```
+```
 rosrun play_motion run_motion_python_node.py
 ```
 8- The communication between **webcam.py** and **run_motion_python_node.py** is done through publish/subscribe 
