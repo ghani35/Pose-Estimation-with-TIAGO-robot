@@ -1,5 +1,5 @@
 # Software-Architecture-Assignment
-#Description
+# Description
 This is a ros architecture to exploit open-source human pose-estimation to teleoperate robots trought uper-body movements. the movements
 used in this assignment are: 
 * rise_hand
@@ -13,7 +13,7 @@ on the angles of the landmarks. the path of this node is : (   )
 once the gesture is correctly detected, a specific trajectory is send to the robot controller by the node (),
 the trajectories are hard-coded in the yaml file (tiago_motion.yaml).
 
-How to run:
+# How to run:
 1- Install Ubnutu 18.04 with ROS and TIAGO, by following this documentation.
 
 2- clone the repository
