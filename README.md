@@ -5,12 +5,14 @@ This is a ros architecture to exploit open-source human pose-estimation to teleo
 * reach_floor
 * wave
 this is the scheme of the high level architectue: 
+![image](https://user-images.githubusercontent.com/91313196/178319382-9fd768a9-c97d-4b8e-a436-5b38cbcc1724.png)
 
-Recognize gestures is devolped based on opencv and Mediapipe, it allows the robot to detect the correct movment of the person based 
-on the angles of the landmarks. the path of this node is : (   )
 
-once the gesture is correctly detected, a specific trajectory is send to the robot controller by the node (),
-the trajectories are hard-coded in the yaml file (tiago_motion.yaml).
+*Recognize gestures* is devolped based on opencv and Mediapipe, it allows the robot to detect the correct movment of the person based 
+on the angles of the landmarks. the script of this node is **wabcam.py**
+
+once the gesture is correctly detected, a specific trajectory is send to the robot controller by the node **run_motion_python_node.py**,
+the trajectories are hard-coded in the yaml file **tiago_motion.yaml**.
 
 # Instructions for running the simulation
 1- Install Ubnutu 18.04 with ROS and TIAGO, by following this documentation [install](http://wiki.ros.org/Robots/TIAGo/Tutorials/Installation/InstallUbuntuAndROS)
