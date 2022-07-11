@@ -20,15 +20,24 @@ the trajectories are hard-coded in the yaml file (tiago_motion.yaml).
 git clone https://github.com/ghani35/Software-Architecture-Assignment.git 
 ```
 3- source your workspace 
- source ./devel/setup.bash
-
-4- run roscore 
- roscore 
-
+```
+source ./devel/setup.bash
+```
+4- run roscore
+```
+roscore 
+```
+5- Build the workspace
+```
+catkin build -DCATKIN_ENABLE_TESTING=0 -j $(expr `nproc` / 2)
+```
 5- run the Gazebo simulation of Tiago 
-
-6- run the first node Gesture detector  (webcam.py), this will open the camera of your computer, and show you the landmarks
-cd path
+```
+ roslaunch tiago_gazebo tiago_gazebo.launch public_sim:=true robot:=steel world:=empty
+```
+6- run the first node Gesture detector  **webcam.py**, this will open the camera of your computer, and show you the landmarks
+```
+cd 
 ros run tiago_trajectory_controller webcam.py
 
 7- run the second node (run_motion_python_node.py), this node send the desired trajectory to tiago after a correct detection of the gesture
