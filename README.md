@@ -1,4 +1,4 @@
-# Software-Architecture-Assignment
+# Pose Estimation with Tiago Robot 
 ## Description
 This is a ros architecture to exploit open-source human pose-estimation to teleoperate robots trought uper-body movements. the movements used in this assignment are: 
 * rise_hand
